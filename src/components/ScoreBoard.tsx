@@ -16,24 +16,24 @@ const ScoreBoard: React.FC<ScoreBoardProps> = ({ scores }) => {
         <Trophy className="h-5 w-5 text-yellow-500" />
         Score Board
       </h2>
-      
+
       <div className="space-y-2">
         <div className="flex justify-between items-center p-2 bg-indigo-50 rounded">
           <div className="flex items-center gap-2">
             <User className="h-4 w-4 text-indigo-600" />
-            <span className="font-medium">Pushpa Raj</span>
+            <span className="font-medium">Vinay Kumar</span>
           </div>
           <span className="text-lg font-bold text-indigo-600">{scores.X}</span>
         </div>
-        
+
         <div className="flex justify-between items-center p-2 bg-purple-50 rounded">
           <div className="flex items-center gap-2">
             <User className="h-4 w-4 text-purple-600" />
-            <span className="font-medium">Appanna</span>
+            <span className="font-medium">Siddharth</span>
           </div>
           <span className="text-lg font-bold text-purple-600">{scores.O}</span>
         </div>
-        
+
         <div className="flex justify-between items-center p-2 bg-gray-100 rounded">
           <div className="flex items-center gap-2">
             <Users className="h-4 w-4 text-gray-600" />
